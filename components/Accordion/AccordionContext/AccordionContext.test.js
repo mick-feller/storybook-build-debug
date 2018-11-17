@@ -8,16 +8,16 @@ import {
 
 describe('AccordionContext', () => {
   it('Sets the display name', () => {
-    expect(DISPLAY_NAME).toBe('od-accordion');
+    expect(DISPLAY_NAME).toBe('accordion');
   });
   it('Sets the header display name', () => {
-    expect(DISPLAY_NAME_HEADER).toBe('od-accordion-header');
+    expect(DISPLAY_NAME_HEADER).toBe('accordion-header');
   });
   it('Sets the content display name', () => {
-    expect(DISPLAY_NAME_CONTENT).toBe('od-accordion-content');
+    expect(DISPLAY_NAME_CONTENT).toBe('accordion-content');
   });
   it('Sets the container display name', () => {
-    expect(DISPLAY_NAME_CONTAINER).toBe('od-accordion-container');
+    expect(DISPLAY_NAME_CONTAINER).toBe('accordion-container');
   });
   it('Checks if context is defined', () => {
     expect(AccordionContext).toBeDefined();

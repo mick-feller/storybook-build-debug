@@ -15,13 +15,13 @@ describe('AccordionHeader', () => {
     expect(component.exists()).toBe(true);
   });
   it('Header is Clicked', () => {
-    component.find(`.od-row.${DISPLAY_NAME_HEADER}`).simulate('click');
+    component.find(`.row.${DISPLAY_NAME_HEADER}`).simulate('click');
     expect(context.toggleAccordion.mock.calls.length).toBe(1);
   });
   it('Heading is rendered', () => {
-    expect(component.find('.od-heading').exists()).toBe(true);
+    expect(component.find('.heading').exists()).toBe(true);
   });
   it('Heading is rendered without background', () => {
-    expect(componentNoBg.find('.od-accordion-header-no-bg').exists()).toBe(true);
+    expect(componentNoBg.find('.accordion-header-no-bg').exists()).toBe(true);
   });
 });

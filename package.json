@@ -46,7 +46,6 @@
     "stylelint-config-standard": "^18.2.0",
     "stylelint-scss": "^3.3.2"
   },
-  "homepage": "https://ma.officedepot.com/docs/",
   "scripts": {
     "start": "node_modules/.bin/start-storybook -p 9001 -c .storybook",
     "build": "node_modules/.bin/build-storybook -c .storybook -o build"

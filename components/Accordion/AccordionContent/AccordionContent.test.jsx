@@ -13,6 +13,6 @@ describe('AccordionContent', () => {
     expect(component.exists()).toBe(true);
   });
   it('Content is rendered without background', () => {
-    expect(componentNoBg.find('.od-accordion-content-no-bg').exists()).toBe(true);
+    expect(componentNoBg.find('.accordion-content-no-bg').exists()).toBe(true);
   });
 });
