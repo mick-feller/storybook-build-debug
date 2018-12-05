@@ -111,8 +111,5 @@
     "style-loader": "^0.23.1",
     "webpack": "^4.25.1",
     "whatwg-fetch": "^3.0.0"
-  },
-  "peerDependencies": {
-    "@od/global-resources": ">3.5.0"
   }
 }
