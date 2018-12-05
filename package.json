@@ -62,7 +62,6 @@
     "@babel/preset-env": "^7.1.5",
     "@babel/preset-react": "^7.0.0",
     "@babel/preset-stage-0": "^7.0.0",
-    "@od/eslint-config": "^1.2.0",
     "@storybook/addon-a11y": "^4.1.0-alpha.3",
     "@storybook/addon-actions": "^4.1.0-alpha.3",
     "@storybook/addon-backgrounds": "^4.1.0-alpha.3",
