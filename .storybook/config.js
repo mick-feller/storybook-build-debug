@@ -1,5 +1,4 @@
 import { configure, addDecorator, setAddon } from '@storybook/react';
-import '@od/global-resources/scss/index.scss';
 import { checkA11y, configureA11y } from '@storybook/addon-a11y';
 import { configureViewport } from '@storybook/addon-viewport';
 //import { themes } from '@storybook/components';
